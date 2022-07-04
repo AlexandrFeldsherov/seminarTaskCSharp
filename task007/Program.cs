@@ -7,9 +7,9 @@
 
 Console.Write("Введите трехзначное число ");
 int number = Convert.ToInt32(Console.ReadLine());
-while ((int)Math.Log10(Math.Abs(number))!=2)
+while ((int)Math.Log10(Math.Abs(number)) != 2)
 {
     Console.Write("Вы ввели не трехзначное число, попоробуйте еще раз: ");
     number = Convert.ToInt32(Console.ReadLine());
 }
-Console.WriteLine(Math.Abs(number%10));
+Console.WriteLine(Math.Abs(number % 10));
